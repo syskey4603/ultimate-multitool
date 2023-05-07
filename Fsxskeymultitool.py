@@ -25,7 +25,7 @@ text(Fore.RED + ' Welcome To The Future')
 
 
 
-
+2
  
 def menu():
     global onstart
@@ -58,7 +58,7 @@ def menu():
 [5] Massdm         [15]
 [6] Nitro Gen      [16]
 [7]About/Activity  [17]
-[8]                [18]
+[8]Prxyscrape n ip [18]
 [9]                [19]
  
 {Fore.WHITE}
@@ -73,8 +73,7 @@ def menu():
 # i coded the exit command to help you with atleast one command
  
     if command == "5":
-        
-        print("command")
+        os.system('nitrogen.py')
  
     if command == "0":
         print("> Do you really want to leave ?")
@@ -82,10 +81,10 @@ def menu():
         time.sleep(1)
  
     if command == "2":
-        print("command")
+        os.system('generator.py')
  
     if command == "3":
-        print("command")
+        os.system('discordautoadvertise.py')
  
     if command == "4":
         print("command")
