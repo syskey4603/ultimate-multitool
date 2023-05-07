@@ -50,16 +50,16 @@ def menu():
 {Fore.RED}                                                                                                   
 [help]  [shutdown]
  ---------------------------------------------------------------
-[0] Exit           [10]   
-[1]Discord Nuker   [11]   
-[2] Generator      [12]
-[3]auto advertise  [13]
-[4] Token grabber  [14]
-[5] Massdm         [15]
-[6] Nitro Gen      [16]
-[7]About/Activity  [17]
-[8]Prxyscrape n ip [18]
-[9]                [19]
+[0] Exit                     [10]   
+[1]Discord Nuker             [11]   
+[2] Generator                [12]
+[3]auto advertise            [13]
+[4] Token grabber            [14]
+[5] Massdm                   [15]
+[6] Nitro Gen                [16]
+[7]About/Activity            [17]
+[8]Proxy Scraper and Geo Ip  [18]
+[9]                          [19]
  
 {Fore.WHITE}
 """)
