@@ -1,26 +1,14 @@
 import os
-from colorama import init, Fore as cc
+
 os.system('pip install -U discord==1.7.3')
 os.system('pip install -U discord.py==1.7.3')
 print("Loading....")
 print("executing modules")
-username = input("The program calls for your name ")
+username = input("The program calls for you name ")
 print("Welcome")
 print(username)
 import discord, asyncio
-g = G = cc.LIGHTGREEN_EX
-print = f"""
-{g}  _____                        __                    
-_/ ____\_________  ___  ______|  | __  ____  ___.__. 
-\   __\/  ___/\  \/  / /  ___/|  |/ /_/ __ \<   |  | 
- |  |  \___ \  >    <  \___ \ |    < \  ___/ \___  | 
- |__| /____  >/__/\_ \/____  >|__|_ \ \___  >/ ____| 
-           \/       \/     \/      \/     \/ \/          {g}
 
-Made By Frazy*-*#4051 want more tools? join https://discord.gg/rMa8jRPz
-"""
-
-                   
 token = 'your token' # https://www.youtube.com/watch?v=YEgFvgg7ZPI
 replyMessage = 'your message after the user dms you' # Message to reply with when somebody DMs the token.
 mainMessage = 'channel message' # Message to send in the channel.
