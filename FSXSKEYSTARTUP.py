@@ -1,6 +1,7 @@
 import os
 import time
 from pyfiglet import Figlet
+import sys
 #os.system('python assets.py')
 def banner():
     custom_fig = Figlet(font='big')
@@ -11,7 +12,7 @@ def typewriter(text):
         sys.stdout.flush()
         time.sleep(0.05)
 
-text = "Loading Fsxskey Type Y to launch "
+text = "Type Enter"
 
 typewriter(text)   
 def color_banner():
@@ -37,13 +38,33 @@ def color_banner():
 import sys
 import time
 
-input("to start type Y")
+import re
+
+def validate_password(password):
+    if len(password) < 8:
+        return False
+    if not re.search("[a-z]", password):
+        return False
+    if not re.search("[A-Z]", password):
+        return False
+    if not re.search("[0-9]", password):
+        return False
+    if not re.search("[_@$]", password):
+        return False
+    return True
+
+password = input("/KEY")
+if validate_password(password):
+     os.system('discordnuker.py')
+else:
+    print("Password is invalid.")
+     
+
 
     
         
 command = input(">")
-if command == "Y":
-        
+if command == "FSXSKEYONTOPGFHSHXBWASA16636342621Q127ER1273R723RT37818":
         os.system('Fsxskeymultitool.py')
 
 def main():
