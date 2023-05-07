@@ -1,0 +1,5 @@
+discord.py
+discord
+discord_webhook
+colorama
+bs4
