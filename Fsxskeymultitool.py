@@ -113,7 +113,7 @@ def menu():
         onstart()
  
     if command == "1":
-        print("command")
+        os.system('fsxskeynuker.py')
  
     if command == "shutdown":
         sys.exit()
