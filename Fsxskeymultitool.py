@@ -10,8 +10,8 @@ def text(t):
         sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(0.1)
-text(Fore.RED + 'Fsxskey has executed.') 
-text(Fore.RED + ' Welcome To The Future')
+text(Fore.RED + '  Fsxskey has executed.') 
+text(Fore.RED + '   Welcome To The Future')
 
 
 

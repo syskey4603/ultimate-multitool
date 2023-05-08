@@ -30,6 +30,4 @@ Anime.Fade(Center.Center(intro), Colors.black_to_red, Colorate.Vertical, interva
 
 
 
-
-
 os.system('Fsxskeymultitool.py')
