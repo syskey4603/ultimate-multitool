@@ -5,6 +5,8 @@ import os
 # this is the command to add color, write Fore. and then add the name of your color, you can find all the color name on colorama page
 import sys,time
 from gen import getacc
+from discordautoadvertiser import mainfunc
+from nitrogen import complete
 
 def text(t):
     for char in t:
@@ -26,7 +28,7 @@ text(Fore.RED + '   Welcome To The Future')
 
 
 
-2
+
  
 def menu():
     global onstart
@@ -52,11 +54,11 @@ def menu():
 [help]  [shutdown]
  ---------------------------------------------------------------
 [0] Exit                        
-[1]Discord Nuker             [6]Proxy Scraper and Geo Ip   [11]Server Joiner     [16]Token Bruteforcer     
-[2]Generator                 [7]Token grabber              [12]Token Checker     [17]Crunchyroll account
-[3]auto advertise            [8]NitroGen                   [13]Account Nuker     [18]Mass Reporter
-[4]                          [9]                           [14]                  [19]
-[5]                          [10]                          [15]                  [20]
+[1] Discord Nuker             [6] Proxy Scraper and Geo Ip   [11] Server Joiner     [16] Token Bruteforcer     
+[2] Generator                 [7] Token grabber              [12] Token Checker     [17] Crunchyroll account
+[3] auto advertise            [8] NitroGen                   [13] Account Nuker     [18] Mass Reporter
+[4]                           [9]                            [14]                   [19]
+[5]                           [10]                           [15]                   [20]
  
 {Fore.WHITE}
 """)
@@ -86,7 +88,7 @@ def menu():
         menu()
  
     if command == "3":
-        os.system('discordautoadvertise.py')
+        mainfunc()
         time.sleep(2)
         menu()
     
@@ -111,7 +113,7 @@ def menu():
         menu()
 
     if command == "8":
-        os.system("tokenchecker.py")
+        complete()
 
     if command == "9":
         print("command")
