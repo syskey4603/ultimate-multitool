@@ -4,7 +4,7 @@ import time
 import os
 # this is the command to add color, write Fore. and then add the name of your color, you can find all the color name on colorama page
 import sys,time
-import gen
+from gen import getacc
 
 def text(t):
     for char in t:
@@ -52,9 +52,9 @@ def menu():
 [help]  [shutdown]
  ---------------------------------------------------------------
 [0] Exit                        
-[1]Discord Nuker             [4]  Proxy Scraper and Geo Ip   [7]Server Joiner
-[2] Generator                [5] Token grabber               [8]token checker
-[3]auto advertise            [6]  NitroGen                   [9]
+[1] Discord Nuker             [4] Proxy Scraper and Geo Ip   [7] Server Joiner    [10] Nordvpn Gen
+[2] Generator                 [5] Token grabber              [8]                  [11] Crunchyroll Gen
+[3] auto advertise            [6] NitroGen                   [9]
                              
  
 {Fore.WHITE}
@@ -76,30 +76,58 @@ def menu():
  
     if command == "1":
         os.system('fsxskeynuker.py')
+        time.sleep(2)
+        menu()
 
     if command == "2":
         print("crunchy / nord: ")
+        time.sleep(2)
+        menu()
  
     if command == "3":
         os.system('discordautoadvertise.py')
+        time.sleep(2)
+        menu()
     
     if command == "4":
         os.system('nitrogen.py')
+        time.sleep(2)
+        menu()
 
     if command == "5":
         os.system('massdm.py')
+        time.sleep(2)
+        menu()
 
     if command == "6":
         print("command")
+        time.sleep(2)
+        menu()
         
     if command == "7":
         print("command")
+        time.sleep(2)
+        menu()
 
     if command == "8":
-        os.system("token")
+        print("test")
+        time.sleep(2)
+        menu()
 
     if command == "9":
         print("command")
+        time.sleep(2)
+        menu()
+    
+    if command == "10":
+        getacc("nord")
+        time.sleep(2)
+        menu()
+
+    if command == "11":
+        getacc("crunchy")
+        time.sleep(2)
+        menu()
         
 
     
