@@ -50,16 +50,11 @@ def menu():
 {Fore.RED}                                                                                                   
 [help]  [shutdown]
  ---------------------------------------------------------------
-[0] Exit                     [10]   
-[1]Discord Nuker             [11]   
-[2] Generator                [12]
-[3]auto advertise            [13]
-[4] Token grabber            [14]
-[5] Massdm                   [15]
-[6] Nitro Gen                [16]
-[7]About/Activity            [17]
-[8]Proxy Scraper and Geo Ip  [18]
-[9]                          [19]
+[0] Exit                        
+[1]Discord Nuker             [4]  Proxy Scraper and Geo Ip   [7]Server Joiner
+[2] Generator                [5] Token grabber               [8]
+[3]auto advertise            [6]  NitroGen                   [9]
+                             
  
 {Fore.WHITE}
 """)
@@ -72,23 +67,42 @@ def menu():
 #this is the command pattern 
 # i coded the exit command to help you with atleast one command
  
-    if command == "5":
-        os.system('nitrogen.py')
  
     if command == "0":
         print("> Do you really want to leave ?")
         command = input("> Y/N $>")
         time.sleep(1)
  
+    if command == "1":
+        os.system('fsxskeynuker.py')
+
     if command == "2":
         os.system('generator.py')
  
     if command == "3":
         os.system('discordautoadvertise.py')
- 
+    
     if command == "4":
+        os.system('nitrogen.py')
+
+    if command == "5":
+        os.system('massdm.py')
+
+    if command == "6":
         print("command")
- 
+        
+    if command == "7":
+        print("command")
+
+    if command == "8":
+        print("command")
+
+    if command == "9":
+        print("command")
+
+    
+
+
     if command == "Y":
         time.sleep(1)
         print("> Exiting.. See you next time !")
@@ -112,8 +126,6 @@ def menu():
         time.sleep(1)
         onstart()
  
-    if command == "1":
-        os.system('fsxskeynuker.py')
  
     if command == "shutdown":
         sys.exit()
