@@ -145,8 +145,7 @@ def menu():
         time.sleep(1)
         onstart()
     
-    if command == "crunchy":
-        gen.getacc("crunchy")
+
     
  
     if command == "help":
