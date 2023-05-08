@@ -153,8 +153,8 @@ def menu():
         time.sleep(1)
         print("""> Contact :
         
-            Discord ID : XXXXXXXXXXXXXXXXXX
-            Github : intel1337
+            Discord ID : sxskey#8290 and Frazy*-*#4051 https://discord.gg/tCuyRtP9
+            Github : https://github.com/syskey4603
  
         """)
         time.sleep(1)
