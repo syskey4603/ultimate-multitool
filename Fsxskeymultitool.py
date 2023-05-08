@@ -53,7 +53,7 @@ def menu():
  ---------------------------------------------------------------
 [0] Exit                        
 [1]Discord Nuker             [4]  Proxy Scraper and Geo Ip   [7]Server Joiner
-[2] Generator                [5] Token grabber               [8]
+[2] Generator                [5] Token grabber               [8]token checker
 [3]auto advertise            [6]  NitroGen                   [9]
                              
  
@@ -96,7 +96,7 @@ def menu():
         print("command")
 
     if command == "8":
-        print("command")
+        os.system("token")
 
     if command == "9":
         print("command")

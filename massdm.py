@@ -16,7 +16,7 @@ b = Style.BRIGHT
 message = input("What do you want to say in the embed? ")
 Cls() 
 
-token = "NzgzOTEwMDM3ODM0ODI1NzU4.YHn_hA.BwVywzAAFIh6MT6CgGsYzXc2pQE"
+token = "yourtoken"
 
 Cls()
 
