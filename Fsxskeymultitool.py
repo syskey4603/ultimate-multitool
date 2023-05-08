@@ -4,6 +4,7 @@ import time
 import os
 # this is the command to add color, write Fore. and then add the name of your color, you can find all the color name on colorama page
 import sys,time
+import gen
 
 def text(t):
     for char in t:
@@ -77,7 +78,7 @@ def menu():
         os.system('fsxskeynuker.py')
 
     if command == "2":
-        os.system('generator.py')
+        print("crunchy / nord: ")
  
     if command == "3":
         os.system('discordautoadvertise.py')
@@ -99,6 +100,7 @@ def menu():
 
     if command == "9":
         print("command")
+        
 
     
 
@@ -114,6 +116,10 @@ def menu():
         print("> Nevermind.. You're Back !")
         time.sleep(1)
         onstart()
+    
+    if command == "crunchy":
+        gen.getacc("crunchy")
+    
  
     if command == "help":
         time.sleep(1)
