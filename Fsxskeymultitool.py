@@ -52,10 +52,11 @@ def menu():
 [help]  [shutdown]
  ---------------------------------------------------------------
 [0] Exit                        
-[1]Discord Nuker             [4]Proxy Scraper and Geo Ip   [7]Server Joiner
-[2]Generator                 [5]Token grabber              [8]token checker
-[3]auto advertise            [6]NitroGen                   [9]
-                             
+[1]Discord Nuker             [6]Proxy Scraper and Geo Ip   [11]Server Joiner     [16]Token Bruteforcer     
+[2]Generator                 [7]Token grabber              [12]Token Checker     [17]Crunchyroll account
+[3]auto advertise            [8]NitroGen                   [13]Account Nuker     [18]Mass Reporter
+[4]                          [9]                           [14]                  [19]
+[5]                          [10]                          [15]                  [20]
  
 {Fore.WHITE}
 """)
